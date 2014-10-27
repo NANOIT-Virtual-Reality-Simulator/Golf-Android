@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_menu_image"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:src="@drawable/golf_title" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relWrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/leaderboard_button"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/play_game_button"
+                android:layout_below="@+id/play_game_button"
+                android:background="@drawable/rectangle_transparent_black"
+                android:text="High Scores"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/about_button"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/settings_button"
+                android:layout_alignTop="@+id/leaderboard_button"
+                android:background="@drawable/rectangle_transparent_black"
+                android:text="About"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/settings_button"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/about_button"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@+id/leaderboard_button"
+                android:background="@drawable/rectangle_transparent_black"
+                android:text="Settings"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/play_game_button"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/rectangle_transparent_black"
+                android:text="Play Game"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

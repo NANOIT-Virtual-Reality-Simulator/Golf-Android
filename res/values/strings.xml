@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Golf</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+     <string-array name="deck_design">
+        <item>Classic</item>
+        <item>Pokemon</item>
+        <item>Yugioh!</item>
+        <item>Scary</item>
+    </string-array>
+    
+   	<string-array name="music_choices">
+        <item>Birds</item>
+        <item>Sandstorm</item>
+        <item>Guile\'s Theme</item>
+    </string-array>
+    
+    <string name="about">Golf (also known as Polish Polka, Polish Poker, Turtle, Hara Kiri, or Crazy Nines) is a card game where players try to earn the lowest number of points (similar to the sport, Golf) over the course of nine deals (or holes to further use golfing terminology).
+		\n\n
+		HOW TO PLAY:\n
+		The objective of Golf is to obtain the lowest possible score.\n
+		A turn is signified by a card flip or a card swap.\n
+		A player may flip one of the eight cards on the left portion of the screen or swap a card with any other card on the board (including the deck and discard piles).\n
+		Once a player makes the flip or swap, the next player goes.\n
+		\n
+		The game is over when one player flips all of his/her cards over.\n\n
+		
+		SCORING:\n
+		The game is scored as follows:\n
+		Ace: 0 points\n
+		2: 2 points\n
+		3: 3 points\n
+		4: 4 points\n
+		5: 5 points\n
+		6: 6 points\n
+		7: 7 points\n
+		8: 8 points\n
+		9: 9 points\n
+		10: 10 points\n
+		Jack: 10 points\n
+		Queen: 10 points\n
+		King: -3 points\n
+		\n
+		When a card is placed directly above or below another card of the same value, the values of both cards cancel out to form a value of 0.\n
+		
+		
+		\n\n\n\n
+		This version of Golf was created by Dillon Gresham, Connor Hoene, Shayan Motovalli, and Austin Moore in the Spring of 
+		2014. " </string>
+
+</resources>

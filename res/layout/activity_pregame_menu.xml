@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Connor: I know this all is horribly shitty looking right now.
+		I just wanted to get a basic xml file for this activity made -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pregame_menu_background" >
+
+	<LinearLayout 
+	    android:padding="10dip"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="2"
+	    android:orientation="horizontal" >
+	
+		<LinearLayout 
+		    android:id="@+id/background1"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:orientation="vertical" >
+
+			<TextView
+			    android:id="@+id/textView1"
+			    android:layout_marginTop="10dip"
+			    android:layout_weight="1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			   	android:gravity="center_horizontal"
+			   	android:textColor="#ffffff"
+			    android:text="Choose a Game Type:"
+			    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<Button
+			    android:id="@+id/single_player"
+			    android:layout_marginTop="5dip"
+			    android:layout_marginBottom="5dip"
+			    android:layout_marginLeft="40dip"
+			    android:layout_marginRight="40dip"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			   	android:gravity="center_horizontal"
+			    android:layout_weight="1"
+			    android:text="Single Player"
+			    android:textColor="#ffffff"
+			    android:background="@drawable/rectangle_transparent_gray" />
+			
+			<Button
+			    android:id="@+id/multiplayer"
+			    android:layout_marginTop="5dip"
+			    android:layout_marginBottom="5dip"
+			    android:layout_marginLeft="40dip"
+			    android:layout_marginRight="40dip"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			   	android:gravity="center_horizontal"
+			    android:layout_weight="1"
+			    android:text="Multiplayer"
+			    android:textColor="#ffffff"
+			    android:background="@drawable/rectangle_transparent_gray" />
+
+
+		
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:id="@+id/background2"
+		    android:padding="10dip"
+	    	android:layout_width="0dp"
+	    	android:layout_height="match_parent"
+	    	android:layout_weight="1"
+	    	android:orientation="vertical" >
+			
+		    
+		 	<TextView
+			    android:id="@+id/textView2"
+			    android:layout_marginTop="10dip"
+			    android:layout_weight="1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			   	android:gravity="center_horizontal"
+			    android:text="Choose Number of Players:"
+			    android:textColor="#ffffff"
+			    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		 	<Button
+		 	    android:id="@+id/players2"
+		 	    android:layout_marginTop="5dip"
+			    android:layout_marginBottom="5dip"
+			    android:layout_marginLeft="40dip"
+			    android:layout_marginRight="40dip"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			   	android:gravity="center_horizontal"
+		 	    android:layout_weight="1"
+		 	    android:text="2"
+		 	    android:textColor="#ffffff"
+		 	    android:background="@drawable/rectangle_transparent_gray" />
+
+		 	<Button
+		 	    android:id="@+id/players3"
+		 	    android:layout_marginTop="5dip"
+			    android:layout_marginBottom="5dip"
+			    android:layout_marginLeft="40dip"
+			    android:layout_marginRight="40dip"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			   	android:gravity="center_horizontal"
+		 	    android:layout_weight="1"
+		 	    android:text="3"
+		 	    android:textColor="#ffffff"
+		 	    android:background="@drawable/rectangle_transparent_gray" />
+
+		 	<Button
+		 	    android:id="@+id/players4"
+		 	    android:layout_marginTop="5dip"
+			    android:layout_marginBottom="5dip"
+			    android:layout_marginLeft="40dip"
+			    android:layout_marginRight="40dip"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			   	android:gravity="center_horizontal"
+		 	    android:layout_weight="1"
+		 	    android:text="4"
+		 	    android:textColor="#ffffff"
+		 	    android:background="@drawable/rectangle_transparent_gray" />
+	
+		</LinearLayout>
+	
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:padding="10dip"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	   	android:gravity="center_horizontal" >
+	
+	
+	    <Button
+	       android:id="@+id/play_game"
+	       android:layout_width="200dp"
+	       android:layout_height="50dp"
+	       android:alpha="1"
+	       android:text="Play Game"
+	       android:textColor="#ffffff"
+	       android:background="@drawable/rectangle_transparent_black" />
+    
+    </LinearLayout>
+	
+</LinearLayout>
